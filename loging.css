@@ -1,0 +1,108 @@
+/* * {
+    margin: 0px;
+} */
+
+body { 
+    background-image: linear-gradient( 65deg, rgb(17, 157, 238),  rgb(247, 10, 247));}
+
+.container {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    /* border: 5px solid black; */
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    justify-content: center;
+}
+
+span {
+    width: 30%;
+}
+
+.photo {
+    /* border: 5px solid black; */
+    position: relative;
+    margin-top: 10% ;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    justify-self: center;
+    left: 5%;
+    background-color:rgba(240, 248, 255, 0.753);
+}
+
+.user-icon {
+    width: 11rem;
+    height: 10rem;
+    position: relative;
+    left: 32px;
+    top: 41px;
+    background-color: aliceblue;
+}
+
+.sign-in {
+    position: relative;
+    /* border: 5px solid black; */
+    /* width: 50%; */
+    padding: 2rem;
+    margin-left: 10%;
+}
+
+.sign-in > h2 {
+    font-size: 200%;
+    text-align: center;
+    color: Black;
+    position: relative;
+    top: 10%;
+    margin: 0.5rem 0.5rem;
+}
+
+.form {
+    /* border: 2px solid black; */
+    position: relative;
+    top: 10%;
+    left: 0%;
+    height: 75%;
+   
+}
+
+.input {
+    width:60%;
+    height: 2rem;
+    margin: 0.5rem 1.5rem 0rem 3rem;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(203, 213, 223);
+    padding-left: 40px;
+    font-size: larger;
+}
+
+
+.button {
+    position: relative;
+    border: none;
+    border-radius: 40px;
+    width: 70%;
+    height: 2rem;
+    background-color: green;
+    font-size: larger;
+    margin-left: 3.5rem;
+}
+
+.pw-reset {
+    font-size: large;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.form .create-acc {
+    font-size:larger;
+    position: relative;
+    bottom: -20%;
+    /* left: 150px;  */
+    text-align: center;
+}
+  
