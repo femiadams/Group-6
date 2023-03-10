@@ -2,8 +2,9 @@
     margin: 0px;
 } */
 
-body { 
-    background-image: linear-gradient( 65deg, rgb(17, 157, 238),  rgb(247, 10, 247));}
+body {
+    background-image: linear-gradient(65deg, rgb(17, 157, 238), rgb(247, 10, 247));
+}
 
 .container {
     position: absolute;
@@ -14,7 +15,7 @@ body {
     display: flex;
     /* border: 5px solid black; */
     border-radius: 10px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     justify-content: center;
 }
 
@@ -25,13 +26,13 @@ span {
 .photo {
     /* border: 5px solid black; */
     position: relative;
-    margin-top: 10% ;
+    margin-top: 10%;
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
     justify-self: center;
     left: 5%;
-    background-color:rgba(240, 248, 255, 0.753);
+    background-color: rgba(240, 248, 255, 0.753);
 }
 
 .user-icon {
@@ -51,7 +52,7 @@ span {
     margin-left: 10%;
 }
 
-.sign-in > h2 {
+.sign-in>h2 {
     font-size: 200%;
     text-align: center;
     color: Black;
@@ -66,11 +67,11 @@ span {
     top: 10%;
     left: 0%;
     height: 75%;
-   
+
 }
 
 .input {
-    width:60%;
+    width: 60%;
     height: 2rem;
     margin: 0.5rem 1.5rem 0rem 3rem;
     border: none;
@@ -99,10 +100,9 @@ span {
 }
 
 .form .create-acc {
-    font-size:larger;
+    font-size: larger;
     position: relative;
     bottom: -20%;
     /* left: 150px;  */
     text-align: center;
 }
-  
